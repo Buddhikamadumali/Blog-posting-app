@@ -1,0 +1,95 @@
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  .container a{
+    align-self: flex-start;
+    margin-bottom: 20px;
+    color: #a05b02;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .container a:hover{
+    text-decoration: underline;
+  }
+  .header-container{
+   font-size: 14px;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .container h1{
+    text-align: center;
+  }
+  
+  form div {
+    margin-bottom: 20px;
+  }
+  
+  .blogLabel{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  input[type="text"],
+  textarea,
+  select,
+  input[type="file"] {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+  }
+  
+  input[type="text"]:focus,
+  textarea:focus,
+  select:focus {
+    border-color: #000000;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .createBtn {
+    width: 100%;
+    padding: 10px 20px;
+    background: linear-gradient(
+    to bottom,
+    #c5a881, /* Light brown */
+    #f3ed95, /* White */
+    #dfd684  /* Yellow */
+  );
+    color: #0f0f0f;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.15s;
+  }
+  
+  .createBtn:hover {
+    background: linear-gradient(
+        to bottom,
+        #a88f6e, /* Light brown */
+        #cec87c, /* White */
+        #bdb56e  /* Yellow */
+      );
+    color: #000;
+  }
+  

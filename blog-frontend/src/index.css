@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+    background-color:#EEE8AA;
+}
+.background-image {
+    width: 100%;
+    background-image: url('./home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 0;
+  }
+  .text-container {
+    margin-top: 50px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    color: #ffffff;
+  }
+  
+  .text-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .text-container p {
+    font-size: 1.5rem;
+  }

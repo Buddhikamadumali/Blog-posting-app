@@ -1,0 +1,13 @@
+.list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+/* Mobile responsiveness: 1 column on screens smaller than 600px */
+@media (max-width: 600px) {
+  .list-container {
+    grid-template-columns: 1fr;
+  }
+}
